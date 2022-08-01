@@ -1,0 +1,39 @@
+.navbar{
+    display: flex;
+    height: 10%;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: bisque;
+}
+#body
+{
+    margin: 0;
+    padding: 0;
+}
+.navele{
+    box-shadow: 4px 5px solid black;
+}
+.navele:hover{
+    /* transform: translateX(-10px); */
+    font-size: x-large;
+    background-color: wheat;
+}
+.dropdown ul{
+ display: none;
+ /* position: absolute; */
+ /* top: 60px; */
+}
+.dropdown ul li{
+list-style: none;
+
+}
+.dropdown ul li:hover{
+    background-color: #fee;
+
+}
+.dropdown:hover > ul {
+    display:block;
+    /* position: relative; */
+    /* float: inline-end; */
+
+}
